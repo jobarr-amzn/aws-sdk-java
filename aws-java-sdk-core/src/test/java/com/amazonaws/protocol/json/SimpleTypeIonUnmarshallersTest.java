@@ -42,7 +42,7 @@ import com.amazonaws.transform.SimpleTypeIonUnmarshallers.StringIonUnmarshaller;
 import com.amazonaws.util.StringInputStream;
 import com.fasterxml.jackson.core.JsonParser;
 
-import software.amazon.ion.system.IonSystemBuilder;
+import com.amazon.ion.system.IonSystemBuilder;
 
 public class SimpleTypeIonUnmarshallersTest {
     @Test

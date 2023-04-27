@@ -36,11 +36,11 @@ import com.amazonaws.DefaultRequest;
 import com.amazonaws.http.HttpResponse;
 import com.amazonaws.http.JsonErrorResponseHandler;
 
-import software.amazon.ion.IonStruct;
-import software.amazon.ion.IonSystem;
-import software.amazon.ion.IonWriter;
-import software.amazon.ion.Timestamp;
-import software.amazon.ion.system.IonSystemBuilder;
+import com.amazon.ion.IonStruct;
+import com.amazon.ion.IonSystem;
+import com.amazon.ion.IonWriter;
+import com.amazon.ion.Timestamp;
+import com.amazon.ion.system.IonSystemBuilder;
 
 public class SdkStructuredIonFactoryTest {
     private static final String ERROR_PREFIX = "aws-type:";

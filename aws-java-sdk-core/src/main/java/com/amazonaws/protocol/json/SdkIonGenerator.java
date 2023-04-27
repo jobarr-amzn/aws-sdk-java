@@ -25,10 +25,10 @@ import java.util.Date;
 import com.amazonaws.annotation.SdkInternalApi;
 import com.amazonaws.SdkClientException;
 import com.amazonaws.util.BinaryUtils;
-import software.amazon.ion.IonType;
-import software.amazon.ion.IonWriter;
-import software.amazon.ion.Timestamp;
-import software.amazon.ion.system.IonWriterBuilder;
+import com.amazon.ion.IonType;
+import com.amazon.ion.IonWriter;
+import com.amazon.ion.Timestamp;
+import com.amazon.ion.system.IonWriterBuilder;
 
 @SdkInternalApi
 abstract class SdkIonGenerator implements StructuredJsonGenerator {
